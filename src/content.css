@@ -1,0 +1,102 @@
+:root {
+  --bgColor: #282a37;
+  --color: #c7cdcd;
+  --lineHeight: 1.5em;
+
+  --black: #5f5f60;
+  --red: #dd625d;
+  --green: #3f9162;
+  --blue: #84d1e4;
+  --magenta: #e68ac7;
+  --cyan: #85c8ce;
+}
+
+
+.jw-body {
+  line-height: var(--lineHeight);
+  background: var(--bgColor);
+  color: var(--color);
+  margin: 0;
+  padding: 20pt 50pt;
+}
+
+.jw-viewer {
+  word-wrap: break-word;
+  font-family: monospace;
+}
+.jw-pre{
+  display: none;
+}
+
+.jw-expandable {
+  padding-left: 25pt;
+  border-left: .5px solid var(--black);
+  position: relative;
+}
+
+.jw-btn-toggle {
+  position: absolute;
+  left: -20px;
+  padding: 0 3px;
+  border: 1px solid var(--black);
+  border-radius: 20%;
+  top: -16px;
+  font-size: 8px;
+  line-height: 1em;
+  cursor: pointer;
+}
+
+.jw-btn-toggle::after {
+  content: '-'
+}
+
+.jw-collapsed .jw-btn-toggle::after {
+  content: '+'
+}
+
+.jw-collapsed .jw-dots {
+  display: block;
+}
+
+.jw-collapsed .jw-block {
+  display: none;
+}
+
+.jw-dots {
+  cursor: pointer;
+  line-height: 15pt;
+  font-size: 6pt;
+  display: none;
+}
+
+.jw-block {
+  padding: 0;
+}
+
+.jw-bold {
+  font-weight: bold;
+}
+
+.jw-black {
+  color: var(--black);
+}
+
+.jw-red {
+  color: var(--red);
+}
+
+.jw-green {
+  color: var(--green);
+}
+
+.jw-blue {
+  color: var(--blue);
+}
+
+.jw-magenta {
+  color: var(--magenta);
+}
+
+.jw-cyan {
+  color: var(--cyan);
+}

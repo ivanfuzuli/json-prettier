@@ -3,6 +3,9 @@
 2. Syntax Highlighter
 3. Type (int, string, obj etc.) and size viewer
 
+[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
+
+
 ### Build
 1. `npm run build`
 2. Load extension on Chrome following:

@@ -31,7 +31,7 @@
     "cz-conventional-changelog": "^2.1.0",
     "extract-text-webpack-plugin": "^3.0.2",
     "file-loader": "^3.0.1",
-    "kind-of": "^6.0.2",
+    "kind-of": "^6.0.3",
     "mini-css-extract-plugin": "^0.6.0",
     "webpack": "^4.30.0",
     "webpack-cli": "^3.3.1"
